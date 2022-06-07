@@ -1,0 +1,120 @@
+.main{
+  margin:0  70px;
+  border-top: 1px solid rgb(230, 224, 224);
+  padding: 50px 0;
+ 
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.payment{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.choose{
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(190, 184, 184);
+}
+.headerRight{
+  display: flex;
+  align-items: center;
+}
+.payIcon{
+  width: 50px;
+  margin-left: 20px;
+}
+.payIcon img{
+  width: 100%;
+  object-fit: cover;
+}
+.top{
+  margin-top: 30px;
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(230, 224, 224);
+}
+.topLeft{
+  flex: 0.5;
+  width: 100%;
+}
+.topLeft img{
+  width: 75%;
+}
+.topRight{
+  flex: 0.5;
+  width: 100%;
+  display: flex;
+  width: 100%;
+}
+.topRight .row{
+  margin-bottom: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.row .formGroup{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+  
+}
+.formGroup label{
+  margin-bottom: 12px;
+}
+.formGroup input{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(231, 229, 229);
+  border: 1px solid rgb(190, 184, 184);
+  padding: 15px;
+  color: black;
+  outline: none;
+}
+.radio{
+  margin: 10px;
+  justify-content: end;
+}
+.radio input{
+  margin-right: 15px;;
+}
+.btn{
+  width: 100%;
+  background-color: rgb(88, 88, 247);
+  color: white;
+  padding: 17px 0;
+  font-size: 1.1rem;
+  border: none;
+  margin-top: 10px;
+}
+.bottom{
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(230, 224, 224);
+}
+.payItem{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.bottomTotal{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.btnTotal{
+  width: 250px;
+  padding: 15px 0;
+  font-size: 1.1rem;
+  border: none;
+  color: white;
+  background-color: rgb(88, 88, 247);
+}
+.totalLeft{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
