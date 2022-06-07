@@ -101,6 +101,9 @@
   font-size: 1.1rem;
   margin-bottom: 15px;
 }
+.light{
+  color: rgb(190, 184, 184);
+}
 .bottomTotal{
   display: flex;
   justify-content: space-between;

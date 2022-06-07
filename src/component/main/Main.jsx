@@ -103,7 +103,7 @@ const Main = () => {
           </span>
         </div>
       </div>
-      
+
       <div className="bottomTotal">
         <button className='btnTotal'>
           Complete Payment
